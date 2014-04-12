@@ -881,11 +881,11 @@ function hash()
 	{
 		if(typeof session_logged_in != 'undefined')
 		{
-			showreservations();
+			//showreservations();
 		}
 		else
 		{
-			showlogin();
+			//showlogin();
 		}
 	}
 	else
@@ -944,6 +944,11 @@ $(window).load(function()
 			hash();
 		});
 	}
+	
+	/* $.backstretch([
+      "http://lh5.ggpht.com/_hJmG4Y6WzF4/TLIcpBWVvbI/AAAAAAAAGao/UXGE5G_o5Rs/s9000/9.13%2BMonday%2BNight%2BFootball%2Bfield.JPG"
+  ], {fade: 750}); */
+
 });
 
 // Settings
@@ -952,3 +957,4 @@ $(document).ready( function()
 {
 	$.ajaxSetup({ cache: false });
 });
+

@@ -16,7 +16,7 @@ define('global_salt', 'k4i8pa2m5');
 define('global_remember_login_days', '180');
 
 // Title. Used in page title and header
-define('global_title', 'Book plagrrounds , game courts or stadium online!');
+define('global_title', 'Book playgrounds , game courts or stadium online!');
 
 // Organization. Used in page title and header, and as sender name in reservation reminder emails
 define('global_organization', 'Go out and play this weekend at any court near you.');
