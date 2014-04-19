@@ -4,9 +4,9 @@
 
 // MySQL details
 define('global_mysql_server', 'localhost');
-define('global_mysql_user', 'demo');
+define('global_mysql_user', 'root');
 define('global_mysql_password', '');
-define('global_mysql_database', 'test');
+define('global_mysql_database', 'phpmyreservation');
 
 // Salt for password encryption. Changing it is recommended. Use 9 random characters
 // This MUST be 9 characters, and must NOT be changed after users have been created
